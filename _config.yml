@@ -5,7 +5,7 @@
 # NOTE: it looks like you need to rebuild + repush everytime you update this _config.yml file
 
 ### Site Settings ###
-title               : Yoon Resume 
+title               : YOON RESUME 
 description         : >-
                       Nice to meet you! I'm Seoyoung
 baseurl             : ""   # Change to empty quotes if you are hosting your site at <your-username>.github.io directly,
@@ -34,26 +34,26 @@ nav_exclude:                                            # The following paths ar
 
 ### Author Info ###
 author:
-  name              : A. P. Corgi
-  image             : https://source.unsplash.com/300x300/?corgi&derpy
+  name              : Seoyoung Yoon
+# image             : https://source.unsplash.com/300x300/?corgi&derpy
 #  behance           : your_username
 # dribbble          : your_username
-  email             : username@domain.com
+  email             : sy63@illinois.edu
 #  facebook          : your_username
-  github            : jnaiman # JPN
+  github            : seoyoung-aspyn # JPN
 # gitlab            : your_username
 # instagram         : your_username
 # kaggle            : your_username
-#  linkedin          : your_username
+  linkedin          : aspynyoon
 #  medium            : your_username
 # soundcloud        : your_username
 # spotify           : your_username
 # stackoverflow     : your_user_id
 # tumblr            : your_username.tumblr.com
 #  twitch            : your_username
-  twitter           : your_username
+#  twitter           : your_username
 #  vimeo             : your_username
-  youtube           : your_channel_name
+#  youtube           : your_channel_name
 # keybase           : your_username
 
 
@@ -72,7 +72,7 @@ collections:
 
 ### Disqus ###
 disqus:
-  shortname: your-short-name-disqus                     # Your website Shortname on disqus
+  shortname: SY Yoon                     # Your website Shortname on disqus
 
 
 ### Analytics ###
