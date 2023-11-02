@@ -12,12 +12,11 @@ custom_js:
 
 
 # # From a dictionary in Altair in Python:
-<vegachart schema-url="{{ site.baseurl }}/assets/json/bfro_report.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{ site.baseurl }}/assets/json/bfro_reports.json" style="width: 100%"></vegachart>
 
 <div class="left">
 {% include elements/button.html link="https://github.com/seoyoung-aspyn/seoyoung-aspyn.github.io/blob/main/assets/json/building_charts.json" text="The Data" %}
 </div>
-
 
 
 <div class="right">
