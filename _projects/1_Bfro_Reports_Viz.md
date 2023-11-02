@@ -14,6 +14,12 @@ custom_js:
 # # Interactive visualization of Bigfoot reports:
 <vegachart schema-url="{{ site.baseurl }}/assets/json/bfro_reports.json" style="width: 100%"></vegachart>
 
+
+## Search The Data & Methods
+# Dataset is from...
+{% include elements/button.html link= "https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/bfro_reports_fall2022.csv" text="Here" %}
+
+
 <div class="left">
 {% include elements/button.html link="https://github.com/seoyoung-aspyn/seoyoung-aspyn.github.io/blob/main/assets/json/bfro_reports.json" text="The Data" %}
 </div>
