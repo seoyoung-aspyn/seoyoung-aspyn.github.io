@@ -16,13 +16,14 @@ custom_js:
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/building_inv_chart2.json" style="width: 100%"></vegachart>
 
-<!-- these are written in a combo of html and liquid --> 
 
 <div class="left">
-{% include elements/button.html link="https://github.com/vega/vega/blob/main/docs/data/cars.json" text="The Data" %}
+{% include elements/button.html link="https://github.com/seoyoung-aspyn/seoyoung-aspyn.github.io/blob/main/assets/json/building_charts.json" text="The Data" %}
 </div>
 
+
+
 <div class="right">
-{% include elements/button.html link="https://github.com/jnaiman/online_cv_public/blob/main/python_notebooks/test_generate_plots.ipynb" text="The Analysis" %}
+{% include elements/button.html link="https://github.com/seoyoung-aspyn/seoyoung-aspyn.github.io/blob/main/python_notebooks/IS445_HW8.ipynb" text="The Analysis" %}
 </div>
 
