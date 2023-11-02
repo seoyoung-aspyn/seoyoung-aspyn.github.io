@@ -11,7 +11,7 @@ custom_js:
 ---
 
 
-# # From a dictionary in Altair in Python:
+# # Interactive visualization of Bigfoot reports:
 <vegachart schema-url="{{ site.baseurl }}/assets/json/bfro_reports.json" style="width: 100%"></vegachart>
 
 <div class="left">
