@@ -35,7 +35,7 @@ nav_exclude:                                            # The following paths ar
 ### Author Info ###
 author:
   name              : Seoyoung Yoon
-# image             : https://source.unsplash.com/300x300/?corgi&derpy
+  image             : '/Users/seoyoungyoon/Desktop/CHAMPAIGN/Photos/SY1.jpg'
 #  behance           : your_username
 # dribbble          : your_username
   email             : sy63@illinois.edu
