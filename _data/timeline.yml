@@ -1,27 +1,49 @@
-- title: AMAZING STUFF
-  from: 2019
+- title: Student, University of Illinois Urbana-Champaign
+  from: 2023
   to: present
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  description: At the University of Illinois at Urbana-Champaign, from August 2023 to May 2025(Expected), 
+              I am pursuing a Master of Science in Information Management. 
+              My studies include relevant coursework in Data Visualization, Information Modeling, and Data Statistical Models, 
+              equipping me with advanced knowledge and practical skills pertinent to the information field.
 
-- title: Student, Harvard CS
-  from: 2013
-  to: 2018
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+- title: Student, Sungkyunkwan University
+  from: 2016
+  to: 2022
+  description: I completed a dual degree program at Sungkyunkwan University in South Korea, 
+              earning a Bachelor of Science in Computer Education and a Bachelor of Arts in Education. 
+              During my studies, I had the opportunity to participate in an exchange student program, 
+              attending the University of Copenhagen in Denmark and Sheffield University in the United Kingdom. 
+              I was also the recipient of the Studying Abroad Scholarship and won the Smart Car Arduino Design Contest.
 
-- title: Software Engineer, Google, UK
-  from: 2018
-  to: present
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+- title: Online Platform Python Instructor, Coding Valley
+  from: 2023
+  to: 2023
+  description: I developed and taught Python courses emphasizing real-world applications, 
+              resulting in higher student enrollment.
 
+- title: Data Analyst, OneAll&Partners
+  from: 2021
+  to: 2022
+  description: I spearheaded a research initiative on blockchain trends in partnership with the Singapore headquarters, 
+              pinpointing crucial investment sectors. 
+              My analysis of the most recent developments in blockchain markets, 
+              particularly in decentralized finance (De-Fi) and non-fungible tokens (NFTs), 
+              provided strategic business insights that contributed to a 15% rise in knowledgeable investment decisions. 
+              Furthermore, I interpreted blockchain transactional data, underscoring significant factors for cybersecurity and data integrity, 
+              ensuring that these essential aspects were given due consideration in our strategic approach.
+  
+- title: Teaching Assistant, Sungkyunkwan University
+  from: 2021
+  to: 2021
+  description: As a teaching assistant for the "GEDT020 Foundation and Application of Artificial Intelligence" course, 
+              I conducted weekly tutorial sessions to bolster student comprehension of intricate AI concepts. 
+              My role extended to serving as a crucial intermediary between students and faculty, 
+              where I communicated feedback and concerns with the aim of refining and optimizing the learning experience.
+
+- title: Research Assistant, Sungkyunkwan University
+  from: 2021
+  to: 2020
+  description: In my research, I conducted experiments using C and C++ to explore "Tile-based Viewport-Adaptive Streaming for Immersive Media," 
+              utilizing techniques such as user viewpoint-based tile segmentation, transmission methods, and Region Wise Packing (RWP). 
+              My focused attention to detail was instrumental in enhancing latency and bandwidth performance, 
+              resulting in a significant 30% improvement in 360-degree video streaming.
