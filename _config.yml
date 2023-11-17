@@ -35,7 +35,7 @@ nav_exclude:                                            # The following paths ar
 ### Author Info ###
 author:
   name              : Seoyoung Yoon
-  image             : https://lh3.googleusercontent.com/fife/AK0iWDzesr7h_plNfdb72S2_2Twq7cq1xWVteCmDBQdJkqSiGEPVH26V60yrYqINcl7zyH-zdupO9ecTxYa1XWgRZeNwQKMse3CJB3opAMvazmKL1sofLhXtSxGDRyY-EguVdONVzol6z_c9w_cvULRiGkCy6QzxfbiHUFTYCFOo2nKRZ8yNmTWf6rGcb9-QxLFsTzTHerqBKVtl14QyOlNDn1NVrva3GP3zsLx4xWAhvKQcbtWpVVyZz_tbGFhqiIao7hniFk-y6Tx7L5PAig3iHu6dlZx7uhsD7lPcG4TmRulI7hN-ZWDEoBlISzr5wcZ5bHmMsnZ0ArkYqAkVAbuciztSRvzXTwCxZiLl_HATGPtPwOrEk_-yt6PTKEKNoS5IniQPKaUTeB6q4xp-E8xccpgLrmrRPJCUyR8isBy5F8s9tfoAaCMiGaC80G7vlMBICDgu4NAJNitw9GsXWdGTflf4wX6QCK3eFVPv9vgVCRGzkTQB0kbi9FOrz-MwdGVaczsc1rwK7FILEEUZQmHd-1naHoizzniTT4o7r3xxZY3fuLEORTgVlH6RUi4PkIYZ4KF7oCrNyZcHZ6GIPblwglEI3rCfFCqZl-zMBed6-60MjhCUo99sFuyfk65agMpM69IsLh1MiqK5rO-a6Re6p56QwhLjui0uF4rOifWJX7-04IKTaWpqfpL_X7kfYRA2wkLRvry-Jb6yyOriE-SeKwflIC_c-hQ91Qrs-tF__j15PoHSMC6-1vxJizEdeanazzfPsfjdAOZtFv-EohoBOd3oSwX4i1ZUfCxxLfg0gy961a2ImC2fsyvzzjCA9MS3-tI5fo6M9HZr7OUZMR46jUh5WjAXzMcMOSBB4Av_J1A_maLkKLO4yIExGXIwpiXcDMCuLjgWydtvvRSRZxQXVQu3brVSlwTAVP6T946jlF-SlvKd7G6t-FJI20o1_X5My4q66VYsCC1IjX_Yns2p8v3EdmzamzjT8yDHiqrEPmrih3KgKfyQWpdLh6efya4PIXyd72ypI587W6Be054cuQaghl5zKkQS-8Z6Dw-Eq-QzbqHQbPhWTeKELZph3jxdu_q0o2CYKvjbVWRtk_qSnM-BiFpAyCgmnvwNbBv-_KRT494Vq0Z4adqtQXnwf0Iz6z_18oJyOUd4zE3zRj7KlbcdBg4nP6VcZute8MNg1-vWejebT9yIzrvUH_U2LU--0HWgzdkp6vWEYkurxhRmCBIaQSddA14jEfpn3ORmcFVst9FogYIUOATcVMtsstusfiP9ClydNB9XnHGtiC1fjGCY2ePo_mu3rw19oQeIhBeHfFQcZLIZQfLcDDG2PROIV50CqK28rI79tmUbACNw2rdClVHzYkKvjhZ3rPFbwprOlGzmIrpVfrg2ZZ633AGSnwWxFteiUast0rIuDEkJPABRl028sXTg1jUicLwBq7SbhEl9YN1PtwPcGLOuPX6pdkzsDl36R9W1F7qgTX6icUhGhtVlCICEJDDzWRFqCncMmupB6Y1kLMx3glB2sn-gg8_LkkRLkkUzwSdQhj9X4ZYOCQpYDoVWHVY4O5ZI6K_Gx21LRHSLmrHfdMpiWQveAYPFsK-thYdllKNRxkMlChkDDdIRXpydkrLIfp5N5rQdhE8wwzrTaPg=w1684-h1218
+#  image             : https://lh3.googleusercontent.com/fife/AK0iWDzesr7h_plNfdb72S2_2Twq7cq1xWVteCmDBQdJkqSiGEPVH26V60yrYqINcl7zyH-zdupO9ecTxYa1XWgRZeNwQKMse3CJB3opAMvazmKL1sofLhXtSxGDRyY-EguVdONVzol6z_c9w_cvULRiGkCy6QzxfbiHUFTYCFOo2nKRZ8yNmTWf6rGcb9-QxLFsTzTHerqBKVtl14QyOlNDn1NVrva3GP3zsLx4xWAhvKQcbtWpVVyZz_tbGFhqiIao7hniFk-y6Tx7L5PAig3iHu6dlZx7uhsD7lPcG4TmRulI7hN-ZWDEoBlISzr5wcZ5bHmMsnZ0ArkYqAkVAbuciztSRvzXTwCxZiLl_HATGPtPwOrEk_-yt6PTKEKNoS5IniQPKaUTeB6q4xp-E8xccpgLrmrRPJCUyR8isBy5F8s9tfoAaCMiGaC80G7vlMBICDgu4NAJNitw9GsXWdGTflf4wX6QCK3eFVPv9vgVCRGzkTQB0kbi9FOrz-MwdGVaczsc1rwK7FILEEUZQmHd-1naHoizzniTT4o7r3xxZY3fuLEORTgVlH6RUi4PkIYZ4KF7oCrNyZcHZ6GIPblwglEI3rCfFCqZl-zMBed6-60MjhCUo99sFuyfk65agMpM69IsLh1MiqK5rO-a6Re6p56QwhLjui0uF4rOifWJX7-04IKTaWpqfpL_X7kfYRA2wkLRvry-Jb6yyOriE-SeKwflIC_c-hQ91Qrs-tF__j15PoHSMC6-1vxJizEdeanazzfPsfjdAOZtFv-EohoBOd3oSwX4i1ZUfCxxLfg0gy961a2ImC2fsyvzzjCA9MS3-tI5fo6M9HZr7OUZMR46jUh5WjAXzMcMOSBB4Av_J1A_maLkKLO4yIExGXIwpiXcDMCuLjgWydtvvRSRZxQXVQu3brVSlwTAVP6T946jlF-SlvKd7G6t-FJI20o1_X5My4q66VYsCC1IjX_Yns2p8v3EdmzamzjT8yDHiqrEPmrih3KgKfyQWpdLh6efya4PIXyd72ypI587W6Be054cuQaghl5zKkQS-8Z6Dw-Eq-QzbqHQbPhWTeKELZph3jxdu_q0o2CYKvjbVWRtk_qSnM-BiFpAyCgmnvwNbBv-_KRT494Vq0Z4adqtQXnwf0Iz6z_18oJyOUd4zE3zRj7KlbcdBg4nP6VcZute8MNg1-vWejebT9yIzrvUH_U2LU--0HWgzdkp6vWEYkurxhRmCBIaQSddA14jEfpn3ORmcFVst9FogYIUOATcVMtsstusfiP9ClydNB9XnHGtiC1fjGCY2ePo_mu3rw19oQeIhBeHfFQcZLIZQfLcDDG2PROIV50CqK28rI79tmUbACNw2rdClVHzYkKvjhZ3rPFbwprOlGzmIrpVfrg2ZZ633AGSnwWxFteiUast0rIuDEkJPABRl028sXTg1jUicLwBq7SbhEl9YN1PtwPcGLOuPX6pdkzsDl36R9W1F7qgTX6icUhGhtVlCICEJDDzWRFqCncMmupB6Y1kLMx3glB2sn-gg8_LkkRLkkUzwSdQhj9X4ZYOCQpYDoVWHVY4O5ZI6K_Gx21LRHSLmrHfdMpiWQveAYPFsK-thYdllKNRxkMlChkDDdIRXpydkrLIfp5N5rQdhE8wwzrTaPg=w1684-h1218
 #  behance           : your_username
 # dribbble          : your_username
   email             : sy63@illinois.edu
@@ -84,12 +84,12 @@ analytics:
 
 ### Buy me a coffee ###
 # See https://www.buymeacoffee.com/
-buymeacoffee:
-  enabled: false
-  username: your_username
-  color: "#007bff"
-  message: "Thank you for visiting."                    # Message to be displayed aside from the button for a few seconds.
-  description: "Support me on Buy me a coffee!"
+#buymeacoffee:
+  #enabled: false
+  #username: your_username
+  #color: "#007bff"
+  #message: "Thank you for visiting."                    # Message to be displayed aside from the button for a few seconds.
+  #description: "Support me on Buy me a coffee!"
 
 
 ### Defaults for collections ###
