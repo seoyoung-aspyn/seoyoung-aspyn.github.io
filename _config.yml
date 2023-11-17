@@ -20,10 +20,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate-v2
   - mini_magick
-  - jekyll-github-metadata
-
-github:
-  access_token: ENV['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']
 
 ### To specify which port to host locally on -- use if you have multiple sites you want to host 
 port: 4008
