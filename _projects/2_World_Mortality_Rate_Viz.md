@@ -16,7 +16,7 @@ custom_js:
 Dataset is from... {% include elements/button.html link= "https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/bfro_reports_fall2022.csv" text="Here" %}
 
 <br>
-<vegachart schema-url="{{ site.baseurl }}/assets/json/dashboard_mortality5.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{ site.baseurl }}/assets/json/mortality_5_viz.json" style="width: 100%"></vegachart>
 
 
 
