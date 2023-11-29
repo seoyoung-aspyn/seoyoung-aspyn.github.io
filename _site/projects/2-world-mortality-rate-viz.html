@@ -22,12 +22,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Projects">
-  <meta property="og:description" content="Nice to meet you! I'm Seoyoung">
-  <meta property="og:image" content="">
+  <meta property="og:title" content="World_Mortality_Rate_Viz">
+  <meta property="og:description" content="This is a HW8 for IS445 Data Viz class">
+  <meta property="og:image" content="assets/pngs/cars.png">
 
-  <title>Projects</title>
-  <meta name="description" content="Nice to meet you! I'm Seoyoung">
+  <title>World_Mortality_Rate_Viz</title>
+  <meta name="description" content="This is a HW8 for IS445 Data Viz class">
 
   <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
 
@@ -73,43 +73,49 @@
   </div>
 
 </nav>
-    <div class="card-columns m-3 mt-5">
+    <div class="col-lg-10 mx-auto mt-5 markdown-body">
+  <h1 id="interactive-visualization-of-bigfoot-reports">Interactive visualization of Bigfoot reports:</h1>
+<p><br />
+Dataset is from… <a class="m-1 btn btn-outline-primary btn-2 " href="https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/bfro_reports_fall2022.csv">
+  Here
+</a></p>
 
-  <!-- Local Projects -->
-  <div class="wow animated fadeIn" data-wow-delay=".15s">
-  <a href="/projects/1-bfro-reports-viz" class="project card text-themed"><img id="bfro-reports-viz-img" class="card-img-top" src="/assets/pngs/cars.png" alt="Bfro_Reports_Viz" /><div class="card-body">
-      <h5 id="bfro-reports-viz-name" class="card-title">Bfro_Reports_Viz
-      </h5>
-      <p id="bfro-reports-viz-desc" class="card-text">This is a HW8 for IS445 Data Viz class</p>
-      <p id="bfro-reports-viz-tools" class="card-text"><span class="badge badge-pill text-primary border border-primary ml-1">Python</span><span class="badge badge-pill text-primary border border-primary ml-1">HTML</span><span class="badge badge-pill text-primary border border-primary ml-1">vega-lite</span></p>
-    </div>
-  </a>
+<p><br /></p>
+<vegachart schema-url="/assets/json/dashboard_mortality5.json" style="width: 100%"></vegachart>
+
+<h1 id="some-write-up">Some write-up</h1>
+<p><br /></p>
+
+<h2 id="first-viz-uv-index-vs-visibility-heatmap">First Viz: UV Index vs. Visibility Heatmap</h2>
+<p>Description: This heatmap visualizes the relationship between UV index and visibility. Each cell’s color represents the predominant season when a Bigfoot report was made.<br />
+Encoding: The X-axis represents the UV Index, binned into 20 intervals, while the Y-axis represents Visibility, also binned into 20 intervals.<br />
+Color Scheme: The color encoding is based on the “season” variable. Different shades represent different seasons, making it easier to understand the seasonal distribution of Bigfoot reports.<br />
+Data Transformations: The data has been binned for both the UV index and visibility, which helps in better visual representation and understanding of the data distribution.<br />
+Interactivity: The plot is interactive with selection.<br />
+<br /></p>
+
+<h2 id="second-viz-state-vs-wind-speed-heatmap">Second Viz: State vs. Wind Speed Heatmap</h2>
+<p>Description: This heatmap showcases Bigfoot reports categorized by state and wind speed. The color of each cell provides insight into the season during which the report was made.<br />
+Encoding: The X-axis represents the various states, while the Y-axis displays the wind speed, which is binned into 60 intervals.<br />
+Color Scheme: Just like the previous chart, the color here is based on the “season” variable, with different shades indicating different seasons.<br />
+Data Transformations: The wind speed data has been binned into 60 intervals, which simplifies the representation and aids in identifying patterns and trends.<br />
+Interactivity: The plot is interactive with filtering based on the selection made in the first plot. It means that selecting a portion of the first plot will filter the data in the second plot to match the selection. This interconnected interactivity allows users to explore relationships between the UV index, visibility, wind speed, and state.</p>
+
+<p><br /></p>
+<div class="left">
+<a class="m-1 btn btn-outline-primary btn-2 " href="https://github.com/seoyoung-aspyn/seoyoung-aspyn.github.io/blob/main/assets/json/bfro_reports.json">
+  The Data
+</a>
 </div>
 
-  <div class="wow animated fadeIn" data-wow-delay=".15s">
-  <a href="/projects/2-world-mortality-rate-viz" class="project card text-themed"><img id="world-mortality-rate-viz-img" class="card-img-top" src="/assets/pngs/cars.png" alt="World_Mortality_Rate_Viz" /><div class="card-body">
-      <h5 id="world-mortality-rate-viz-name" class="card-title">World_Mortality_Rate_Viz
-      </h5>
-      <p id="world-mortality-rate-viz-desc" class="card-text">This is a HW8 for IS445 Data Viz class</p>
-      <p id="world-mortality-rate-viz-tools" class="card-text"><span class="badge badge-pill text-primary border border-primary ml-1">Python</span><span class="badge badge-pill text-primary border border-primary ml-1">HTML</span><span class="badge badge-pill text-primary border border-primary ml-1">vega-lite</span></p>
-    </div>
-  </a>
-</div>
-
-  
-
-
-
-
-  <!-- Remote Projects -->
-  
-
-  
-
-  
+<div class="right">
+<a class="m-1 btn btn-outline-primary btn-2 " href="https://github.com/seoyoung-aspyn/seoyoung-aspyn.github.io/blob/main/python_notebooks/IS445_HW8.ipynb">
+  The Analysis
+</a>
 </div>
 
 
+</div>
   </main>
   <footer class="mt-auto py-3 text-center">
 
@@ -147,6 +153,17 @@
 
 </footer>
 
+
+<!-- Custom page specific js files -->
+  
+    <script src='/assets/js/vega.min.js' type="text/javascript"></script>
+  
+    <script src='/assets/js/vega-lite.min.js' type="text/javascript"></script>
+  
+    <script src='/assets/js/vega-embed.min.js' type="text/javascript"></script>
+  
+    <script src='/assets/js/justcharts.js' type="text/javascript"></script>
+  
 
 
 
