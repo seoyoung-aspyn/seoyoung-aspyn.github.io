@@ -60,10 +60,10 @@ The other graph is an interactive dropdown line plot where the fields used in th
 
 <br>
 <div class="left">
-{% include elements/button.html link="https://github.com/seoyoung-aspyn/seoyoung-aspyn.github.io/blob/main/assets/json/bfro_reports.json" text="Json" %}
+{% include elements/button.html link="https://github.com/seoyoung-aspyn/seoyoung-aspyn.github.io/blob/main/python_notebooks/mortality_5.json" %}
 </div>
 
 
 <div class="right">
-{% include elements/button.html link="https://github.com/seoyoung-aspyn/seoyoung-aspyn.github.io/blob/main/python_notebooks/IS445_HW8.ipynb" text="Codes" %}
+{% include elements/button.html link="https://github.com/seoyoung-aspyn/seoyoung-aspyn.github.io/blob/main/python_notebooks/IS445_Final3.ipynb" text="Codes" %}
 </div>
