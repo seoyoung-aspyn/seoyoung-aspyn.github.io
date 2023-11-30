@@ -2,7 +2,7 @@
 name: World_Mortality_Rate_Viz
 tools: [Python, HTML, vega-lite]
 image: assets/pngs/cars.png
-description: This is a HW8 for IS445 Data Viz class
+description: This is a Final Project Phase 3.1 for IS445 Data Viz class
 custom_js:
   - vega.min
   - vega-lite.min
@@ -11,9 +11,9 @@ custom_js:
 ---
 
 
-# Interactive visualization of Bigfoot reports:
+# Interactive visualization of Child Mortality Rate:
 <br>
-Dataset is from... {% include elements/button.html link= "https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/bfro_reports_fall2022.csv" text="Here" %}
+Dataset is from... {% include elements/button.html link= "https://data.worldbank.org/indicator/SH.DYN.MORT" text="Here" %}
 
 <br>
 <vegachart schema-url="{{ site.baseurl }}/assets/json/mortality_5_viz.json" style="width: 100%"></vegachart>
