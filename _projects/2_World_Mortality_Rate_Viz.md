@@ -16,7 +16,7 @@ custom_js:
 Dataset is from... {% include elements/button.html link= "https://data.worldbank.org/indicator/SH.DYN.MORT" text="Here" %}
 
 <br>
-<vegachart schema-url="{{ site.baseurl }}/assets/json/mortality_5.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{ site.baseurl }}/assets/json/mortality_5_viz.json" style="width: 100%"></vegachart>
 
 
 
