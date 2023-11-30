@@ -11,7 +11,7 @@ custom_js:
 ---
 
 
-# Interactive visualization of Child Mortality Rate:
+## Interactive visualization of Child Mortality Rate:
 <br>
 Dataset is from... {% include elements/button.html link= "https://data.worldbank.org/indicator/SH.DYN.MORT" text="Here" %}
 
@@ -20,24 +20,33 @@ Dataset is from... {% include elements/button.html link= "https://data.worldbank
 
 
 
-# Some write-up
+# Some write-up : About our dataset
+<br>
+This dataset shows the mortality rate for children ages 0-5 for countries across the world.<br>  
+The rows are countries in alphabetical order, and the columns show data about the mortality rate from 1960 to 2022.<br>  
+Not all countries have data for every year, so the line graph only shows data for the years available.<br>  
+We linked two plots: one world map, and one interactive line graph, to create an interactive dashboard that displays the corresponding line plot when a country is pressed on the map.<br>   
+The world map incorporates the mortality rate by country in the most recent year in the dataset, 2022, with a tooltip feature highlighting the country name and the mortality rate with a color-coded legend.<br>   
+The datatypes of those fields are country name is a string, mortality rate is a float, and year is a float. 
+
+<br> 
+
+## First Viz: Worldmap 
+<br> 
+Description: 
+The dashboard we have created is to allow users to look at the world map, and get a current picture of child mortality rates around the world.<br> 
+The map ranges from a light green to a dark blue, and the darker the blue gets for a country, that means the child mortality rate for that country is higher.<br> 
+If we click on a country, we can see the name of the country as well as the child mortality rate of that country as of 2022.<br> 
+Additionally, by clicking on the country, the other view in the dashboard shows a line graph of the countries child mortality rate over time.<br>
 <br>
 
-## First Viz: UV Index vs. Visibility Heatmap
-Description: This heatmap visualizes the relationship between UV index and visibility. Each cell's color represents the predominant season when a Bigfoot report was made.<br>
-Encoding: The X-axis represents the UV Index, binned into 20 intervals, while the Y-axis represents Visibility, also binned into 20 intervals.<br>
-Color Scheme: The color encoding is based on the "season" variable. Different shades represent different seasons, making it easier to understand the seasonal distribution of Bigfoot reports.<br>
-Data Transformations: The data has been binned for both the UV index and visibility, which helps in better visual representation and understanding of the data distribution.<br>
-Interactivity: The plot is interactive with selection.<br>
+## Second Viz: The line graph
 <br>
-
-## Second Viz: State vs. Wind Speed Heatmap
-Description: This heatmap showcases Bigfoot reports categorized by state and wind speed. The color of each cell provides insight into the season during which the report was made.<br>
-Encoding: The X-axis represents the various states, while the Y-axis displays the wind speed, which is binned into 60 intervals.<br>
-Color Scheme: Just like the previous chart, the color here is based on the "season" variable, with different shades indicating different seasons.<br>
-Data Transformations: The wind speed data has been binned into 60 intervals, which simplifies the representation and aids in identifying patterns and trends.<br>
-Interactivity: The plot is interactive with filtering based on the selection made in the first plot. It means that selecting a portion of the first plot will filter the data in the second plot to match the selection. This interconnected interactivity allows users to explore relationships between the UV index, visibility, wind speed, and state.
-
+Description: 
+The other graph is an interactive dropdown line plot where the fields used in the plot include the same fields as the other graph, country name, mortality rate, and year.<br> 
+Year has ordinal encoding since the variables have a chronological order, mortality rate has a quantitative encoding since they are numerical values, and country_name is nominal since it is a qualitative variable with no specified order.<br> 
+The encoding mark used are a geoshape mark for the world map to illustrate a geographic area while the line graph uses the line mark for the progression throughout the years.<br> 
+The dashboard highlights the most recent data for mortality rate by country to compare the under 5 mortality rates by country and then when a country is pressed, a line graph shows that countries’ under 5 mortality rates through the years 1960-2022.<br> 
 
 <br>
 <div class="left">
