@@ -10,19 +10,19 @@ custom_js:
   - justcharts
 ---
 
+# Some write-up : About our dataset
+<br>
+This dataset shows the mortality rate for children ages 0-5 for countries across the world. The rows are countries in alphabetical order, and the columns show data about the mortality rate from 1960 to 2022. Not all countries have data for every year, so the line graph only shows data for the years available. We linked two plots: one world map, and one interactive line graph, to create an interactive dashboard that displays the corresponding line plot when a country is pressed on the map. The world map incorporates the mortality rate by country in the most recent year in the dataset, 2022, with a tooltip feature highlighting the country name and the mortality rate with a color-coded legend. The datatypes of those fields are country name is a string, mortality rate is a float, and year is a float. 
+
+<br> 
 
 ## Interactive visualization of Child Mortality Rate:
 <br>
 Dataset is from... {% include elements/button.html link= "https://data.worldbank.org/indicator/SH.DYN.MORT" text="Here" %}
 
-<br>
-<vegachart schema-url="{{ site.baseurl }}/assets/json/mortality_5_viz.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{ site.baseurl }}/assets/json/new_chart.json" style="width: 100%"></vegachart>
 
-
-
-# Some write-up : About our dataset
-<br>
-This dataset shows the mortality rate for children ages 0-5 for countries across the world. The rows are countries in alphabetical order, and the columns show data about the mortality rate from 1960 to 2022. Not all countries have data for every year, so the line graph only shows data for the years available. We linked two plots: one world map, and one interactive line graph, to create an interactive dashboard that displays the corresponding line plot when a country is pressed on the map. The world map incorporates the mortality rate by country in the most recent year in the dataset, 2022, with a tooltip feature highlighting the country name and the mortality rate with a color-coded legend. The datatypes of those fields are country name is a string, mortality rate is a float, and year is a float. 
+<div id="vis"></div>
 
 <br> 
 
@@ -39,23 +39,31 @@ The other graph is an interactive dropdown line plot where the fields used in th
 
 <br>
 
-## For contextual datasets
+# For contextual datasets
+<br>
+
 ### 1. Viz for world GDP data
+<vegachart schema-url="{{ site.baseurl }}/assets/json/gdp_map.json" style="width: 100%"></vegachart>
 
 
-
+<br>
 <br>
 
 ### 2. Viz for Under 5, 5-14 Children Mortality Rate
+<vegachart schema-url="{{ site.baseurl }}/assets/json/map_plots.json" style="width: 100%"></vegachart>
 
+<br>
+
+
+### 3. To compare GDP and Children under 5 Mortality Rate
+<vegachart schema-url="{{ site.baseurl }}/assets/json/gdp_mortality_map.json" style="width: 100%"></vegachart>
 
 <br>
 <div class="left">
-{% include elements/button.html link="https://github.com/seoyoung-aspyn/seoyoung-aspyn.github.io/blob/main/assets/json/bfro_reports.json" text="The Data" %}
+{% include elements/button.html link="https://github.com/seoyoung-aspyn/seoyoung-aspyn.github.io/blob/main/assets/json/bfro_reports.json" text="Json" %}
 </div>
 
 
 <div class="right">
-{% include elements/button.html link="https://github.com/seoyoung-aspyn/seoyoung-aspyn.github.io/blob/main/python_notebooks/IS445_HW8.ipynb" text="The Analysis" %}
+{% include elements/button.html link="https://github.com/seoyoung-aspyn/seoyoung-aspyn.github.io/blob/main/python_notebooks/IS445_HW8.ipynb" text="Codes" %}
 </div>
-
