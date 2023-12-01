@@ -11,7 +11,7 @@ custom_js:
 ---
 
 # Youth at Risk:<br> A Global Overview of Child Mortality Trends
-By Seoyoung Yoon, Nicole Gromski, Sahithi Manne 
+By Seoyoung Yoon, Nicole Gromski, Sahithi Manne (Group 13)
 <br>
 <br>
 <br>
