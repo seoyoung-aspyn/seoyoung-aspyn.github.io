@@ -74,64 +74,94 @@
 
 </nav>
     <div class="col-lg-10 mx-auto mt-5 markdown-body">
-  <h1 id="some-write-up--about-our-dataset">Some write-up : About our dataset</h1>
-<p><br />
-This dataset shows the mortality rate for children ages 0-5 for countries across the world. The rows are countries in alphabetical order, and the columns show data about the mortality rate from 1960 to 2022. Not all countries have data for every year, so the line graph only shows data for the years available. We linked two plots: one world map, and one interactive line graph, to create an interactive dashboard that displays the corresponding line plot when a country is pressed on the map. The world map incorporates the mortality rate by country in the most recent year in the dataset, 2022, with a tooltip feature highlighting the country name and the mortality rate with a color-coded legend. The datatypes of those fields are country name is a string, mortality rate is a float, and year is a float.</p>
+  <h1 id="youth-at-risk-a-global-overview-of-child-mortality-trends">Youth at Risk:<br /> A Global Overview of Child Mortality Trends</h1>
+<p>By Seoyoung Yoon, Nicole Gromski, Sahithi Manne 
+<br />
+<br />
+<br /></p>
 
-<p><br /></p>
+<h2 id="about-our-dataset">About our dataset</h2>
+<p>This dataset shows the mortality rate for children ages 0-5 for countries across the world. The rows are countries in alphabetical order, and the columns show data about the mortality rate from 1960 to 2022. <br /> Not all countries have data for every year, so the line graph only shows data for the years available. <br /> <br /> We linked two plots: one world map, and one interactive line graph, to create an interactive dashboard that displays the corresponding line plot when a country is pressed on the map. The world map incorporates the mortality rate by country in the most recent year in the dataset, 2022, with a tooltip feature highlighting the country name and the mortality rate with a color-coded legend. The datatypes of those fields are country name is a string, mortality rate is a float, and year is a float.</p>
 
-<h2 id="interactive-visualization-of-child-mortality-rate">Interactive visualization of Child Mortality Rate:</h2>
-<p><br />
-Dataset is from… <a class="m-1 btn btn-outline-primary btn-2 " href="https://data.worldbank.org/indicator/SH.DYN.MORT">
-  Here
-</a></p>
+<p><br /> 
+<br /></p>
 
+<h2 id="global-view-under-5-mortality-rate-insights-dashboard">Global View: Under-5 Mortality Rate Insights Dashboard</h2>
+<p>Click on any country on the map to see a line chart illustrating its child mortality trends over the years!
+<br /></p>
 <vegachart schema-url="/assets/json/new_chart.json" style="width: 100%"></vegachart>
+<p>Our dataset is from “The World Bank”   ➭     <a class="m-1 btn btn-outline-primary btn-2 " href="https://data.worldbank.org/indicator/SH.DYN.MORT">
+  Click here
+</a></p>
 
 <div id="vis"></div>
 
-<p><br /></p>
-
-<h2 id="first-viz-worldmap">First Viz: Worldmap</h2>
 <p><br /> 
-Description: 
-The dashboard we have created is to allow users to look at the world map, and get a current picture of child mortality rates around the world. The map ranges from a light green to a dark blue, and the darker the blue gets for a country, that means the child mortality rate for that country is higher.  If we click on a country, we can see the name of the country as well as the child mortality rate of that country as of 2022. Additionally, by clicking on the country, the other view in the dashboard shows a line graph of the countries child mortality rate over time.<br />
+<br /></p>
+
+<h2 id="first-viz-the-world-map">First Viz: The world map</h2>
+<p>The dashboard we have created is to allow users to look at the world map, and get a current picture of child mortality rates around the world. The map ranges from a light green to a dark blue, and the darker the blue gets for a country, that means the child mortality rate for that country is higher.  If we click on a country, we can see the name of the country as well as the child mortality rate of that country as of 2022. Additionally, by clicking on the country, the other view in the dashboard shows a line graph of the countries child mortality rate over time.<br />
 <br /></p>
 
 <h2 id="second-viz-the-line-graph">Second Viz: The line graph</h2>
-<p><br />
-Description: 
-The other graph is an interactive dropdown line plot where the fields used in the plot include the same fields as the other graph, country name, mortality rate, and year. Year has ordinal encoding since the variables have a chronological order, mortality rate has a quantitative encoding since they are numerical values, and country_name is nominal since it is a qualitative variable with no specified order. The encoding mark used are a geoshape mark for the world map to illustrate a geographic area while the line graph uses the line mark for the progression throughout the years. The dashboard highlights the most recent data for mortality rate by country to compare the under 5 mortality rates by country and then when a country is pressed, a line graph shows that countries’ under 5 mortality rates through the years 1960-2022.<br /></p>
-
-<p><br /></p>
+<p>The other graph is an interactive line plot where the fields used in the plot include the same fields as the other graph, country name, mortality rate, and year. Year has temporal encoding, mortality rate has a quantitative encoding since they are numerical values, and country name is nominal since it is a qualitative variable with no specified order. The encoding mark used are a geoshape mark for the world map to illustrate a geographic area while the line graph uses the line mark for the progression throughout the years. The dashboard highlights the most recent data for mortality rate by country to compare the under 5 mortality rates by country and then when a country is pressed, a line graph shows that countries’ under 5 mortality rates through the years 1960-2022.<br /> 
+<br />
+<br /> 
+<br />
+<br /> 
+<br /></p>
 
 <h1 id="for-contextual-datasets">For contextual datasets</h1>
 <p><br /></p>
 
-<h3 id="1-viz-for-world-gdp-data">1. Viz for world GDP data</h3>
-<vegachart schema-url="/assets/json/gdp_map.json" style="width: 100%"></vegachart>
-
-<p><br />
+<h3 id="1-child-mortality-rates-in-2022-under-5-vs-5-to-14-years">1. Child Mortality Rates in 2022: Under 5 vs. 5 to 14 Years</h3>
+<vegachart schema-url="/assets/json/map_plots.json" style="width: 100%"></vegachart>
+<p>Our visualization provides a comparative view of child mortality rates for two distinct age groups: under 5 and from 5 to 14 years old, as recorded in 2022. Through two adjacent interactive maps, viewers can hover over countries to reveal a tooltip with the latest mortality figures, offering a clear and immediate comparison between the vulnerabilities of these age groups. This visualization highlights not only the disparities in child health across different regions but also serves as a vital tool for understanding where improvements have been made and where challenges persist. By presenting these two age brackets side by side, we aim to bring to light the progress in global health initiatives and the areas that require continued focus and action.
+<br /> 
+<br />
+<br />
+<br /> 
+<br />
 <br /></p>
 
-<h3 id="2-viz-for-under-5-5-14-children-mortality-rate">2. Viz for Under 5, 5-14 Children Mortality Rate</h3>
-<vegachart schema-url="/assets/json/map_plots.json" style="width: 100%"></vegachart>
+<h3 id="2-a-color-coded-world-map-of-global-income-groups">2. A Color-Coded World Map of Global Income Groups</h3>
+<vegachart schema-url="/assets/json/gdp_map.json" style="width: 100%"></vegachart>
+<p>This world map provides a visual overview of the global income landscape, categorized by countries’ Gross Domestic Product (GDP). The map is color-coded to differentiate between high, upper-middle, lower-middle, and low-income nations. With intuitive color distinctions, viewers can discern the economic tiers of each country. Hovering over a nation reveals a tooltip with its income group, offering an instant snapshot of its economic status.</p>
 
-<p><br /></p>
+<p><br /> 
+<br />
+<br />
+<br /> 
+<br />
+<br /></p>
 
-<h3 id="3-to-compare-gdp-and-children-under-5-mortality-rate">3. To compare GDP and Children under 5 Mortality Rate</h3>
+<h3 id="extra-economic-profiles-vs-child-health">Extra. Economic Profiles vs. Child Health</h3>
+<p>A Comparative Analysis of GDP and Under-5 Mortality</p>
 <vegachart schema-url="/assets/json/gdp_mortality_map.json" style="width: 100%"></vegachart>
+<p>By laying these maps side by side, we aim to initiate a conversation on how economic factors correlate with child mortality rates. 
+This comparison may reveal patterns and provoke questions about the impact of wealth on health, the effectiveness of resource allocation, and the priorities of nations in safeguarding the health of future generations.
+<br /> 
+<br />
+<br />
+<br /> 
+<br />
+<br />
+<br /> 
+<br />
+<br />
+<br /> 
+<br />
+<br /></p>
 
-<p><br /></p>
 <div class="left">
-<a class="m-1 btn btn-outline-primary btn-1 " href="https://github.com/seoyoung-aspyn/seoyoung-aspyn.github.io/blob/main/python_notebooks/mortality_5.json">
-  Button
+<a class="m-1 btn btn-outline-primary btn-2 " href="https://github.com/seoyoung-aspyn/seoyoung-aspyn.github.io/blob/main/_projects/2_World_Mortality_Rate_Viz.md">
+  Html code
 </a>
 </div>
 
 <div class="right">
 <a class="m-1 btn btn-outline-primary btn-2 " href="https://github.com/seoyoung-aspyn/seoyoung-aspyn.github.io/blob/main/python_notebooks/IS445_Final3.ipynb">
-  Codes
+  Python Analysis
 </a>
 </div>
 
