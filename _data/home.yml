@@ -10,16 +10,9 @@ navbar_entries:
   
 
 project_entries:
-  - title: Project 1
-    url: overview-post
-    desc: This is an example project, configured in _data/home.yml
 
-  - title: Project 2
-    url: overview-post
-    desc: Projects are shown in card layout
-
-  - title: Project 3
-    url: overview-post
+  - title: Amazon AICE projcet
+    url: Amazon AICE projcet
     desc: You can control visibility from _config.yml file
 
   - title: Project 4

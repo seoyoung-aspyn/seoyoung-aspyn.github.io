@@ -1,6 +1,6 @@
 ---
 layout: post
-title: About Me
+title: About SY
 ---
 
  <br/>
