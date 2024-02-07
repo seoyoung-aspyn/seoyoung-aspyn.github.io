@@ -12,25 +12,17 @@ navbar_entries:
 project_entries:
 
   - title: Amazon AICE projcet
-    url: Amazon AICE projcet
+    url: _posts/Amazon-AICE-project
     desc: You can control visibility from _config.yml file
 
   - title: Project 4
     url: overview-post
     desc: This project uses highlight markup, configured in _data/home.yml
-    highlight: WIP
+    #highlight: Individual
 
-  - title: Project 5
-    url: overview-post
-    desc: Moonwalk also has horizontal list (used in header and footer)
-    highlight: WIP
-
-  - title: Project 6
-    url: overview-post
-    desc: It also has a scalable vertical list (in case you need it)
 
 old_project_entries:
-  - title: Soopr
+  - title: Children mortality rate viz
     url: https://www.soopr.co
     desc: Delight your readers - add beautiful share and like buttons easily to your websites 
     highlight: NEW
@@ -39,13 +31,6 @@ old_project_entries:
     url: https://github.com/abhinavs/cookie
     desc: An open source landing website with supporting pages and integrated blog
 
-  - title: Moonwalk
-    url: https://github.com/abhinavs/moonwalk
-    desc: A fast and minimalist Jekyll blog theme with clean dark mode
-
-  - title: Humangous
-    url: https://www.humangous.co
-    desc: The better people know you, the better they collaborate
 
 
 misc_entries:
