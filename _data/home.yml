@@ -12,7 +12,7 @@ navbar_entries:
 project_entries:
 
   - title: Amazon AICE projcet
-    url: _posts/Amazon-AICE-project
+    url: Amazon-AICE-project
     desc: You can control visibility from _config.yml file
 
   - title: Project 4
