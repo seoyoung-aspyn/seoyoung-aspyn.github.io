@@ -12,20 +12,20 @@ navbar_entries:
 project_entries:
 
   - title: Amazon AICE projcet
-    url: Amazon-AICE-project
-    desc: You can control visibility from _config.yml file
+    url: https://github.com/UIUC-Chatbot/AICE-rlaif
+    desc: Research, design, and implement a conversational AI that can rapidly become an “expert” on a user-defined topic
+    highlight: Ongoing
 
   - title: Project 4
     url: overview-post
     desc: This project uses highlight markup, configured in _data/home.yml
-    #highlight: Individual
+  
 
 
 old_project_entries:
   - title: Children mortality rate viz
     url: https://www.soopr.co
     desc: Delight your readers - add beautiful share and like buttons easily to your websites 
-    highlight: NEW
 
   - title: Cookie
     url: https://github.com/abhinavs/cookie
